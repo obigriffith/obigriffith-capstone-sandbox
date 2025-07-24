@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 # scripts/generate_secret_code.py
 import uuid
 import requests # Import the requests library to fetch content from a URL
