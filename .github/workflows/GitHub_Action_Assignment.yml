@@ -2,7 +2,7 @@
 
 name: Basic GitHub Action
 
-on: workflow dispatch
+on: workflow_dispatch
 
 jobs:
   hello-world:
