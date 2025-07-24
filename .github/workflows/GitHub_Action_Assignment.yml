@@ -2,14 +2,12 @@
 
 name: Basic GitHub Action
 
-on:
-  workflow dispatch
+on: workflow dispatch
 
 jobs:
-  job-name: hello world
+  hello-world:
     runs-on: ubuntu-latest      
     steps:
-
       - name: Hello world
         run: echo "Hello World"
         
